@@ -2,7 +2,7 @@
 
 This tutorial is about learning Spring Boot via examples.
 
-[Spring Cloud Example Code](https://github.com/ityouknow/spring-cloud-examples)  &nbsp;| &nbsp; [中文](README.md)
+[Spring Cloud Example Code](https://github.com/ityouknow/spring-cloud-examples)(README.md)
 
 Spring Boot examples, using the simplest and the most useful scene demos.
 
