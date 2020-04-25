@@ -1,4 +1,4 @@
-package com.neo.controller;
+package springActuator.controller;
 
 import org.junit.Before;
 import org.junit.Test;
