@@ -10,6 +10,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+import springActuator.ActuatorApplication;
 
 import java.util.List;
 
@@ -26,7 +27,7 @@ public class HelloTests {
 
     @Before
     public void setUp() throws Exception {
-        mvc = MockMvcBuilders.standaloneSetup(new HelloController()).build();
+        mvc = MockMvcBuilders.standaloneSetup(new ActuatorApplication()).build();
     }
 
     @Test
